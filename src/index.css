@@ -1,0 +1,53 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.searchbar_custom {
+  height: 90vh;
+  background-position: center;
+  background-image: url("./images/Slider1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-class {
+  position: relative;
+}
+
+.img-class::after {
+  content: "©CHOBIRHAAT";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 2px 2px red;
+  font-size: larger;
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchbar_custom {
+    width: 100;
+    background-size: contain;
+  }
+}
