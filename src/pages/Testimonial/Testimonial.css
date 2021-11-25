@@ -1,0 +1,13 @@
+.container{
+    overflow-x: hidden;
+}
+.text{
+    color: #E76F51;
+}
+.filled-star{
+    color: #E76F51;
+}
+.empty-star{
+    color: #E76F51;
+    clip-path: circle();
+}

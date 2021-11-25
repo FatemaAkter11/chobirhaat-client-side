@@ -8,6 +8,7 @@ import Home from "./pages/Home/Home";
 import Navbar from './components/Shared/Navbar';
 import Footer from './components/Shared/Footer';
 import AboutUs from "./pages/Aboutus/Aboutus";
+import Pricing from './pages/Pricing/Pricing';
 
 
 export const ClientContext = createContext();
@@ -22,6 +23,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/aboutus" component={AboutUs} />
+            <Route path="/pricing" component={Pricing} />
           </Switch>
         </div>
         <Footer />
