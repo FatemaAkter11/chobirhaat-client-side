@@ -7,6 +7,7 @@ import {
 import Home from "./pages/Home/Home";
 import Navbar from './components/Shared/Navbar';
 import Footer from './components/Shared/Footer';
+import AboutUs from "./pages/Aboutus/Aboutus";
 
 
 export const ClientContext = createContext();
@@ -20,6 +21,7 @@ function App() {
         <div style={{ minHeight: '80vh' }}>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route path="/aboutus" component={AboutUs} />
           </Switch>
         </div>
         <Footer />
