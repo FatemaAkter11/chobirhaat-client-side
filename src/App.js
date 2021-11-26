@@ -44,7 +44,7 @@ function App() {
         </div>
         <Footer />
       </Router>
-    </ClientContext.Provider>
+      </ClientContext.Provider>
   );
 }
 
