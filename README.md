@@ -1,6 +1,6 @@
 # Chobirhaat
 
-This project Link [Chobirhaat](https://chobirhaat.firebaseapp.com/
+Live Site: [Chobirhaat](https://chobirhaat.firebaseapp.com/
 ).
 
 ## Description
